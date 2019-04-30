@@ -66,7 +66,7 @@ title: 'Publications'
             N. Phan-Thien*, N. Mai-Duy, D. Pan, B. C. Khoo, Exponential-time differencing schemes for low-mass DPD systems, <strong><em>Computer Physics Communication</em></strong>, 185, 229-235 (2014). <span style="color:blue"><a href="https://doi.org/10.1016/j.cpc.2013.09.022">doi:10.1016/j.cpc.2013.09.022</a></span>
         </p>
     </li>
-    <h2 style="border-bottom: 1px solid #e0e0e0;"> 2013 and before</h2>
+    <h2 style="border-bottom: 1px solid #e0e0e0;"> 2013</h2>
     <li>
         <p>
             D. Pan, N. Phan-Thien*, N. Mai-Duy, B. C. Khoo, Numerical investigation on the compressibility of a DPD fluid, <strong><em>Journal of Computational Physics</em></strong>, 242, 196-210 (2013). <span style="color:blue"><a href="https://doi.org/10.1016/j.jcp.2013.02.013">doi:10.1016/j.jcp.2013.02.013</a></span>
