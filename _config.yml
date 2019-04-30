@@ -25,9 +25,9 @@ description:  Rheology of Soft Matter Group
 navbar-links:
   Home: ""
   News: "tags"
-  Research:
+  Research: "research"
   Publications: "pbs"
-  People:
+  People: "people"
   Contact: "contact"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -72,12 +72,12 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   github: softrheol
+  google-plus: +Y
   # rss: true
-  # email: "someone@example.com"
+  email: "someone@example.com"
   # facebook: daattali
   # twitter: daattali
 #  reddit: yourname
-#  google-plus: +DeanAttali
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
@@ -85,7 +85,7 @@ social-network-links:
 #  instagram: deanat78
 #  youtube: user/deanat78
 #  spotify: yourname
-#  telephone: +14159998888
+  telephone: +14159998888
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -149,7 +149,7 @@ staticman:
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
+excerpt_length: 30
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title

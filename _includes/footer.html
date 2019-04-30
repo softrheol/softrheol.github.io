@@ -5,14 +5,12 @@
         <h3>Address</h3>
         <div class="textwidget">
           <address>
-            12nd Building, Room 316<br>
+            12th Building, Room 316<br>
             Yuquan Campus, Zhejiang University <br>
             Xihu District, Hangzhou <br>
             Zhejiang, China <br>
             310027
           </address>
-          <p>Email: dpan AT zju.edu.cn</p>
-          <p><a href="/contact/">View Map</a></p>
         </div>
       </div>
       <div class="col-sm-4">
@@ -21,7 +19,7 @@
           <ul>
             {% for post in site.posts limit:5 %}
             <li>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <a href="{{ post.url | prepend: site.baseurl }}"><strong>{{ post.title }}</strong></a>
               <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
             </li>
             {% endfor %}
@@ -30,7 +28,7 @@
       </div>
       <div class="col-sm-4">
         <div class="footer-site-info footer-widget">
-          <div class="col-lg-8 col-lg-offset-0 col-md-10 col-md-offset-0">
+          <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0">
             <ul class="list-inline text-left footer-links">
               {%- for link in site.social-network-links -%}
               {%- assign curkey = link[0] -%}
@@ -55,13 +53,10 @@
           </div>
           <div id="text-7" class="f-top-center widget widget_text">
             <div class="textwidget">
-              <p><img class="footer-img" src="/img/title.png"
-                  alt="SoftRheol - Rheology of Soft Matter Group"><br>
-                <img class="footer-img" src="/img/locate.jpg" alt="Zhejiang University"></p>
-              <!-- Please don't remove this, keep my open source work credited :) -->
-              <p class="theme-by text-muted"> Theme by <a
-                  href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+              <p>
+                <img class="footer-img" src="/img/locate.jpg" alt="Zhejiang University">
               </p>
+              <p><small> © SoftRheol &mdash; Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/daattali/beautiful-jekyll" rel="nofollow">beautiful-jekyll</a>.</small></p>
             </div>
           </div>
         </div>
