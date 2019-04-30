@@ -1,12 +1,11 @@
 ---
 layout: page
 title: 'Publications'
-subtitle: '*Corresponding authors, __Student authors, #Equally contributed.'
 ---
 
-## Peer Reviewed Journal Papers
-
+> *Corresponding authors, __Student authors, #Equally contributed.
 <ol class=" list-paddingleft-2" reversed="true" style="font-size: 14px;">
+<h2 style="border-bottom: 1px solid #e0e0e0;"> Peer Reviewed Journal Papers</h2>
     <li>
         <p>
             <span style="text-decoration:underline;">L. Zeng</span>, D. Pan, J. Deng*, S. Ye, J. Zhang, X. Shao, Automated design optimization study on a coaxial tilt-rotor in hovering and cruising, <strong><em>Submitted</em></strong>.
