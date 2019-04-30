@@ -24,7 +24,7 @@ description:  Rheology of Soft Matter Group
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  News: "tags"
+  News: "posts"
   Research: "research"
   Publications: "pbs"
   People: "people"
@@ -46,7 +46,7 @@ navbar-col: "#F5F5F5"
 navbar-text-col: "#404040"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
-link-col: "#008AFF"
+link-col: "#113758"
 hover-col: "#0085A1"
 footer-col: "#F5F5F5"
 footer-text-col: "#777777"

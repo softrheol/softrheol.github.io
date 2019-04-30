@@ -1,34 +1,44 @@
 ---
 layout: page
-title: 'News'
 ---
 
 {%- capture site_tags -%}
-    {%- for tag in site.tags -%}
-        {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%}
-    {%- endfor -%}
+{%- for tag in site.tags -%}
+{{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}
 {%- endcapture -%}
 {%- assign tags_list = site_tags | split:',' | sort -%}
 
 {%- for tag in tags_list -%}
-    <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
+<a href="#{{- tag -}}" class="btn btn-default tag-btn">{{- tag -}}&nbsp;<span
+        class="badge">{{site.tags[tag].size}}</span></a>
 {%- endfor -%}
 
 <div id="full-tags-list">
-{%- for tag in tags_list -%}
-    <h2 id="{{- tag -}}" class="linked-section">
-        <i class="fa fa-tag" aria-hidden="true"></i>
-        &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
-    </h2>
+    {%- for tag in tags_list -%}
+    <div class="tag-head">
+        <h2 id="{{- tag -}}">
+            {{- tag -}}
+        </h2>
+    </div>
     <div class="post-list">
         {%- for post in site.tags[tag] -%}
-            <div class="tag-entry">
-                <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
-                <div class="entry-date">
-                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: "%B %d, %Y" -}}</time>
+        <div class="tag-entry">
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
+                </div>
+                <div class="col-sm-4 entry-date">
+                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: "%b %d, %Y" -}}</time>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-11 entry-subtitle">
+                    {{- post.subtitle -}}
+                </div>
+            </div>
+        </div>
         {%- endfor -%}
     </div>
-{%- endfor -%}
+    {%- endfor -%}
 </div>
