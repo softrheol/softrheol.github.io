@@ -929,9 +929,11 @@ td.gutter {
   min-height: 450px;
 }
 
-.people-item .people-interest{
-  padding: 5px 0px;
+.people-item .caption{
   text-align: left;
+}
+.people-item .people-interest ul{
+  padding: 5px 20px;
 }
 
 .caption ul{
