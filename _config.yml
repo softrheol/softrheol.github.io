@@ -72,7 +72,7 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   github: softrheol
-  google-plus: +Y
+  # google-plus: +Y
   # rss: true
   email: "someone@example.com"
   # facebook: daattali
@@ -85,7 +85,7 @@ social-network-links:
 #  instagram: deanat78
 #  youtube: user/deanat78
 #  spotify: yourname
-  telephone: +14159998888
+  # telephone: +14159998888
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -94,7 +94,7 @@ social-network-links:
 share-links-active:
   twitter: true
   facebook: true
-  google: false
+  google: true
   linkedin: true
 
 # How to display the link to the website in the footer
