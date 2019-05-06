@@ -9,7 +9,6 @@ title: News
   <a href="/tutorials" class="list-filter">Tutorials</a>
   <a href="/tags" class="list-filter">Index</a>
 </div>
-
 <div class="posts-list">
   {% for post in site.posts %}
   <article>
